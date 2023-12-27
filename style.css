@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(https://e0.pxfuel.com/wallpapers/289/31/desktop-wallpaper-grey-aesthetic-computer-gray-laptop.jpg);
+    backdrop-filter: blur(8px);
+    background-size: cover;
+    
+}
+main{
+    width: 350px;
+    background-color: #0c0b0b89;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgb(0 0 0 / 20%);
+    backdrop-filter: blur(33px);
+    background-blend-mode: overlay;
+    
+}
+    
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    gap: 10px;    
+}
+.keys button{
+   border-radius: 50%;
+   border : none;
+   cursor : pointer;
+   font-size: 25px;
+}
+.keys .buttonzero{
+    grid-column: 1/3;
+    border-radius: 25px;
+    padding: 20px;
+    height:70px;
+    width: 150px;
+}
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.keys .op {
+    background-color: #7F8487;
+    color: #ffffff;
+}
+.keys .op2 {
+    background-color: #FA7D09;
+    color: #ffffff;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 70px;
+    text-align: right;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: right;
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
